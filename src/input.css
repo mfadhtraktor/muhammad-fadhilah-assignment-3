@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    @apply bg-blue-950 text-white;
+  }
+}
+
+@layer components {
+  .profile {
+    height: 200px;
+    width: 200px;
+  }
+
+  .imgvndb {
+    height: 311px;
+  }
+}
